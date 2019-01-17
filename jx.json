@@ -1,0 +1,26 @@
+
+{
+    "homepage": "https://github.com/jenkins-x/jx",
+    "license": "https://github.com/jenkins-x/jx/blob/master/LICENSE",
+    "version": "v1.3.746",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jenkins-x/jx/releases/download/v1.3.746/jx-windows-amd64.zip",
+            "hash": ""
+        }
+    },
+    "bin": [
+        ["jx-windows-amd64.exe", "jx.exe"]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jenkins-x/jx/releases/download/$version/jx-windows-amd64.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
