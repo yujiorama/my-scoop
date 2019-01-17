@@ -10,7 +10,7 @@
         }
     },
     "bin": [
-        ["jx-windows-amd64.exe", "jx.exe"]
+        ["jx-windows-amd64.exe", "jx"]
     ],
     "checkver": "github",
     "autoupdate": {
