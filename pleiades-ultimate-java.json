@@ -1,0 +1,28 @@
+
+{
+    "homepage": "http://mergedoc.osdn.jp/",
+    "license": "EPL-1.0",
+    "version": "2018-12_20181224",
+    "architecture": {
+        "64bit": {
+            "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2019/pleiades-2018-12-ultimate-win-64bit-jre_20181224.zip",
+            "hash": ""
+        }
+    },
+    "extract_dir": "eclipse",
+    "checkver": {
+        "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2019/",
+        "re": "pleiades-(?<version>\\d{4}-\\d{2})-ultimate-win-64bit-jre_(?<pubdate>\\d+)\\.zip",
+        "replace": "${version}_${pubdate}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2019/pleiades-$matchVersion-ultimate-win-64bit-jre_$matchPubdate.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
