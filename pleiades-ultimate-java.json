@@ -13,6 +13,12 @@
         [ "eclipse\\eclipse.exe", "eclipse" ],
         [ "eclipse\\eclipsec.exe", "eclipsec" ]
     ],
+    "shortcuts": [
+        [
+            "eclipse.exe",
+            "Eclipse"
+        ]
+    ],
     "checkver": {
         "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2019/",
         "re": "pleiades-(?<version>\\d{4}-\\d{2})-ultimate-win-64bit-jre_(?<pubdate>\\d+)\\.zip",
