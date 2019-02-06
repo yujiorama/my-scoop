@@ -1,0 +1,31 @@
+{
+    "homepage": "https://github.com/tablacus/TablacusExplorer",
+    "license": "https://github.com/tablacus/TablacusExplorer/blob/master/LICENSE.TXT",
+    "version": "19.1.28",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tablacus/TablacusExplorer/releases/download/19.1.28/te190128.zip",
+            "hash": "b54ba8b9ecc91706242e5ace22134c1e2d689f3d69f79612698176cdd784ad22"
+        }
+    },
+    "bin": [
+        [
+            "TE64.exe",
+            "TablacusExplorer"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "TE64.exe",
+            "Tablacus Explorer"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tablacus/TablacusExplorer/releases/download/$version/te190128.zip"
+            }
+        }
+    }
+}
