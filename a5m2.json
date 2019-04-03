@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "http://ftp.vector.co.jp/71/23/2526/a5m2_2.14.0_x64.zip",
-            "hash": "6a32b03adb250342b56e5a31cf0838548ed58eec5a83877633ac4ba23b3c7f15"
+            "hash": "22c33d4d30bfd2886723d82c521370790ba21cdba13e734dc1d187e7f8112c58"
         }
     },
     "bin": [
