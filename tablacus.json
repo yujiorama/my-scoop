@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/tablacus/TablacusExplorer",
     "license": "https://github.com/tablacus/TablacusExplorer/blob/master/LICENSE.TXT",
-    "version": "19.3.17",
+    "version": "19.4.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tablacus/TablacusExplorer/releases/download/19.3.17/te190317.zip",
-            "hash": "59607572ac0cca2e44114b41b85bdf3bba8ec41bf759c55efb11209c03776421"
+            "url": "https://github.com/tablacus/TablacusExplorer/releases/download/19.4.3/te190403.zip",
+            "hash": "9f2a075db462c4ed1092fb32de1c5272c5c28e341a4b3661c1a65ff7a15f9a47"
         }
     },
     "bin": [
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tablacus/TablacusExplorer/releases/download/$version/te190317.zip"
+                "url": "https://github.com/tablacus/TablacusExplorer/releases/download/$version/te190403.zip"
             }
         }
     }
