@@ -1,0 +1,38 @@
+{
+    "homepage": "https://exewrap.osdn.jp/",
+    "license": "https://osdn.net/projects/exewrap/scm/svn/blobs/head/exewrap/trunk/exewrap/license.txt",
+    "version": "1.4.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://osdn.net/dl/exewrap/exewrap1.4.1.zip",
+            "hash": "b5a8c3bde44933f062af0a57dbe7923becd42ed8758d578e722c1ad0ac89cde2"
+        }
+    },
+    "extract_dir": "exewrap$matchVersion",
+    "shortcuts": [
+        
+    ],
+    "bin": [
+        [
+            "x64\\exewrap.exe",
+            "exewrap.exe"
+        ],
+        [
+            "x86\\exewrap.exe",
+            "exewrap-x86.exe"
+        ]
+    ],
+    "checkver": {
+        "url": "https://osdn.net/projects/exewrap/latest/releases/release",
+        "re": "exewrap\\ version\\ (?<version>\\d*\\.\\d*\\.\\d)",
+        "replace": "${version}",
+        "useragent": "curl/7.65.1"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://osdn.net/dl/exewrap/exewrap$matchVersion.zip"
+            }
+        }
+    }
+}
