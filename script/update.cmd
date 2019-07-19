@@ -1,1 +1,1 @@
-powershell .\scoop\bin\checkver.ps1 -dir ./ * -u
+powershell .\scoop\bin\checkver.ps1 -dir ./bucket * -u
