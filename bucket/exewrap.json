@@ -15,11 +15,11 @@
     "bin": [
         [
             "x64\\exewrap.exe",
-            "exewrap.exe"
+            "exewrap"
         ],
         [
             "x86\\exewrap.exe",
-            "exewrap-x86.exe"
+            "exewrap-x86"
         ]
     ],
     "checkver": {
