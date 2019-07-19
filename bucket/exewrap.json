@@ -5,10 +5,10 @@
     "architecture": {
         "64bit": {
             "url": "https://osdn.net/dl/exewrap/exewrap1.4.1.zip",
-            "hash": "b5a8c3bde44933f062af0a57dbe7923becd42ed8758d578e722c1ad0ac89cde2"
+            "hash": "93d70b70c088570271e7fbf5c61c20a0caa0f143978259b781cb1aeefa3657f3"
         }
     },
-    "extract_dir": "exewrap$matchVersion",
+    "extract_dir": "exewrap1.4.1",
     "shortcuts": [
         
     ],
