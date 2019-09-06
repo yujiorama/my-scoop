@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/weaveworks/eksctl/",
     "license": "https://raw.githubusercontent.com/weaveworks/eksctl/master/LICENSE",
-    "version": "0.1.32",
+    "version": "0.5.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/weaveworks/eksctl/releases/download/0.1.32/eksctl_Windows_amd64.zip",
-            "hash": "205175b22a6d44e5a6f32d3b112d999585cd5bf91546115fdb4ef1567e852d47"
+            "url": "https://github.com/weaveworks/eksctl/releases/download/0.5.1/eksctl_Windows_amd64.zip",
+            "hash": "10aa16faeab984c8b617a8ebf3bc352e113007b264d0761b11fe101201ca422e"
         }
     },
     "bin": [
