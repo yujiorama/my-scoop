@@ -22,7 +22,7 @@
         "}"
     ],
     "uninstaller": "Get-ChildItem -Path $dir -Include '*.ttf','*.ttc' -Recurse | ForEach { If (Test-Path \"c:\\Windows\\Fonts\\$($_.Name)\") { sudo Remove-Item -Path $($_.FullName) -Recurse -Force }}",
-    "extract_dir": "HackGen_v1.2.0",
+    "extract_dir": "HackGen_v1.2.1",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
