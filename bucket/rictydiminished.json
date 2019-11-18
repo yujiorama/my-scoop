@@ -1,0 +1,36 @@
+{
+    "homepage": "https://github.com/edihbrandon/RictyDiminished",
+    "license": "http://scripts.sil.org/ofl",
+    "version": "3.2.3",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/edihbrandon/RictyDiminished/archive/3.2.3.zip",
+            "hash": "c9fb88004471f7f0e466a9eac0720f5d23ca3f8b1e25bef300ef8592806a8ef1"
+        }
+    },
+    "post_install": [
+        "$dst = (New-Object -ComObject Shell.Application).Namespace(0x14)",
+        "$tmp = ($Env:TEMP + \"\\Fonts\")",
+        "New-Item -ItemType Directory -Force -Path $tmp | Out-Null",
+        "Get-ChildItem -Path $dir -Include '*.ttf','*.ttc' -Recurse | ForEach {",
+        "    If (-not(Test-Path \"c:\\Windows\\Fonts\\$($_.Name)\")) {",
+        "        $font = ($tmp + \"\\$($_.Name)\")",
+        "        Copy-Item -Path $($_.FullName) -Destination $tmp",
+        "        $dst.CopyHere($font, 0x10)",
+        "        Remove-Item -Path $font -Force",
+        "    }",
+        "}"
+    ],
+    "uninstaller": {
+        "script": "Get-ChildItem -Path $dir -Include '*.ttf','*.ttc' -Recurse | ForEach { If (Test-Path \"c:\\Windows\\Fonts\\$($_.Name)\") { sudo Remove-Item -Path $($_.FullName) -Recurse -Force }}"
+    },
+    "extract_dir": "RictyDiminished-3.2.2",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/edihbrandon/RictyDiminished/archive/$version.zip"
+            }
+        }
+    }
+}
