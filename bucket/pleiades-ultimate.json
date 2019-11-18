@@ -1,11 +1,11 @@
 {
     "homepage": "http://mergedoc.osdn.jp/",
     "license": "EPL-1.0",
-    "version": "2019-06_20190810",
+    "version": "2019-09_20190930",
     "architecture": {
         "64bit": {
-            "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2019/pleiades-2019-06-ultimate-win-64bit-jre_20190810.zip",
-            "hash": "a8d673f348fd5581bb9c2caa1760f7da2f3ae5099d3ce7d3898827fb95a12820"
+            "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2019/pleiades-2019-09-ultimate-win-64bit-jre_20190930.zip",
+            "hash": "9bce3fa2b6242d926e4f92a09a453f4ae0bdd918791eb93d9e409aec42e0bae2"
         }
     },
     "extract_dir": "pleiades",
