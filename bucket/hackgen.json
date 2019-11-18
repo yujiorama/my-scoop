@@ -13,7 +13,7 @@
         "$tmp = ($Env:TEMP + \"\\Fonts\")",
         "New-Item -ItemType Directory -Force -Path $tmp | Out-Null",
         "Get-ChildItem -Path $dir -Include '*.ttf','*.ttc' -Recurse | ForEach {",
-        "    If (-not(Test-Path \"c:\\Windows\\Fonts\\$($_.Name)\")) {",
+        "    If (-not(Test-Path ($Env:LOCALAPPDATA + \"c:\\Windows\\Fonts\\$($_.Name)\"))) {",
         "        $font = ($tmp + \"\\$($_.Name)\")",
         "        Copy-Item -Path $($_.FullName) -Destination $tmp",
         "        $dst.CopyHere($font, 0x10)",
@@ -22,9 +22,9 @@
         "}"
     ],
     "uninstaller": {
-        "script": "Get-ChildItem -Path $dir -Include '*.ttf','*.ttc' -Recurse | ForEach { If (Test-Path \"c:\\Windows\\Fonts\\$($_.Name)\") { sudo Remove-Item -Path $($_.FullName) -Recurse -Force }}"
+        "script": "Get-ChildItem -Path $dir -Include '*.ttf','*.ttc' -Recurse | ForEach { If (Test-Path ($Env:LOCALAPPDATA + \"\\Microsoft\\Windows\\Fonts\\$($_.Name)\")) { Remove-Item -Path $($_.FullName) -Recurse -Force }}"
     },
-    "extract_dir": "HackGen_v1.2.1",
+    "extract_dir": "HackGen_v1.3.1",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
