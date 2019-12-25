@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/yuru7/HackGen",
     "license": "https://raw.githubusercontent.com/yuru7/HackGen/master/LICENSE.txt",
-    "version": "1.3.1",
+    "version": "1.4.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yuru7/HackGen/releases/download/v1.3.1/HackGen_v1.3.1.zip",
-            "hash": "bc38c06ba7717deb3b986b47d072bcff74b7c127f276fd7d4fd733f3000ae8b5"
+            "url": "https://github.com/yuru7/HackGen/releases/download/v1.4.1/HackGen_v1.4.1.zip",
+            "hash": "3f190f25f035ff1e5e4d277e751dc85c64ecaaf9cfaa09074d5623f4a597e996"
         }
     },
     "post_install": [
