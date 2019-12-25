@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/harelba/q",
     "license": "https://github.com/harelba/q/blob/master/LICENSE",
-    "version": "1.7.1",
+    "version": "2.0.8",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/harelba/q/releases/download/1.7.1/setup-q-1.7.1.exe",
-            "hash": "56a45985a57dde4ecc706f4ba209425f7d9fc86490a3e09135459dfaededb260"
+            "url": "https://github.com/harelba/q/releases/download/2.0.8/q-AMD64-Windows-installer.exe",
+            "hash": "d62cff66acbc0896e4583100f9302754784b207aed51b32cd1b8bd5f22ac225c"
         }
     },
     "bin": [
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/harelba/q/releases/download/$version/setup-q-$version.exe"
+                "url": "https://github.com/harelba/q/releases/download/$version/q-AMD64-Windows-installer.exe"
             }
         }
     },
@@ -28,7 +28,6 @@
         "script": [
             "Expand-7zipArchive \"$dir\\setup-q-1.7.1.exe\" \"$dir\" -Removal",
             "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Recurse -Force"
-
         ]
     }
 }
