@@ -1,11 +1,11 @@
 {
     "homepage": "https://a5m2.mmatsubara.com/",
     "license": "",
-    "version": "2.14.4",
+    "version": "2.14.5",
     "architecture": {
         "64bit": {
-            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.14.4_x64.zip",
-            "hash": "784660dd41afd16760e2e5b4f69d71e9a57a694bf9ac467e9387117679226eaf"
+            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.14.5_x64.zip",
+            "hash": "cb90e2de6ac84eca615670899444a02f441635f44cac50a7dbc03d988623fdd4"
         }
     },
     "shortcuts": [
