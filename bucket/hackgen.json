@@ -24,7 +24,7 @@
     "uninstaller": {
         "script": "Get-ChildItem -Path $dir -Include '*.ttf','*.ttc' -Recurse | ForEach { If (Test-Path ($Env:LOCALAPPDATA + \"\\Microsoft\\Windows\\Fonts\\$($_.Name)\")) { Remove-Item -Path $($_.FullName) -Recurse -Force }}"
     },
-    "extract_dir": "HackGen_v1.3.1",
+    "extract_dir": "HackGen_v1.4.1",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
