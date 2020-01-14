@@ -26,7 +26,7 @@
     },
     "installer": {
         "script": [
-            "Expand-7zipArchive \"$dir\\setup-q-1.7.1.exe\" \"$dir\" -Removal",
+            "Expand-7zipArchive \"$dir\\q-AMD64-Windows-installer.exe\" \"$dir\" -Removal",
             "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Recurse -Force"
         ]
     }
