@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/harelba/q",
     "license": "https://github.com/harelba/q/blob/master/LICENSE",
-    "version": "2.0.8",
+    "version": "2.0.9",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/harelba/q/releases/download/2.0.8/q-AMD64-Windows-installer.exe",
-            "hash": "d62cff66acbc0896e4583100f9302754784b207aed51b32cd1b8bd5f22ac225c"
+            "url": "https://github.com/harelba/q/releases/download/2.0.9/q-AMD64-Windows-installer.exe",
+            "hash": "027b088193fe7c3cab6265086aafcce9db35b277e8e0376ee0beda497a87ba36"
         }
     },
     "bin": [
