@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/weaveworks/eksctl/",
     "license": "https://raw.githubusercontent.com/weaveworks/eksctl/master/LICENSE",
-    "version": "0.17.0",
+    "version": "0.18.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/weaveworks/eksctl/releases/download/0.17.0/eksctl_Windows_amd64.zip",
-            "hash": "fcfe2a1501c7eaf7a5d8c80a52f9624116265c0c5d2a206d64edf69e5078d0ab"
+            "url": "https://github.com/weaveworks/eksctl/releases/download/0.18.0/eksctl_Windows_amd64.zip",
+            "hash": "bdd4b58635aa058e6a2f34f09560da549f98df16d4f11ff8c79ca9ca45976594"
         }
     },
     "bin": [
@@ -16,15 +16,8 @@
     "shortcuts": [
         
     ],
-    "checkver": {
-        "url": "https://github.com/weaveworks/eksctl/releases/tag/latest_release",
-        "re": "eksctl (?<version>[\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/weaveworks/eksctl/releases/download/$matchVersion/eksctl_Windows_amd64.zip"
-            }
-        }
+        "url": "https://github.com/weaveworks/eksctl/releases/download/$version/eksctl_Windows_amd64.zip"
     }
 }
