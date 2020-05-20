@@ -1,0 +1,23 @@
+{
+    "homepage": "https://github.com/lensapp/lens",
+    "license": "https://raw.githubusercontent.com/lensapp/lens/master/LICENSE",
+    "version": "3.4.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lensapp/lens/releases/download/v3.4.0/Lens-Setup-3.4.0.exe#/lens.exe",
+            "hash": "5fa2c3ab8c5b99f6b7526a9330b5d8e620af4c685e54e2375baef4fe150d345b"
+        }
+    },
+    "bin": [
+        [
+            "lens.exe"
+        ]
+    ],
+    "shortcuts": [
+        
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/lensapp/lens/releases/download/v$version/Lens-Setup-$version.exe#/lens.exe"
+    }
+}
