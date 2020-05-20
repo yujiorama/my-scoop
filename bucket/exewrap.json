@@ -1,11 +1,11 @@
 {
     "homepage": "https://exewrap.osdn.jp/",
     "license": "https://osdn.net/projects/exewrap/scm/svn/blobs/head/exewrap/trunk/exewrap/license.txt",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "architecture": {
         "64bit": {
-            "url": "https://osdn.net/dl/exewrap/exewrap1.5.0.zip",
-            "hash": "5280bbe036e7c698ffff251e606e4519178ec81705978d3ce47c9eade5f0cbad"
+            "url": "https://osdn.net/dl/exewrap/exewrap1.6.0.zip",
+            "hash": "d0763472910d1709fe9d525150a404e6cbd43705964c33e229ff1435b91c1f50"
         }
     },
     "extract_dir": "exewrap1.4.1",
