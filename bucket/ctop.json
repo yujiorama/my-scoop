@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/bcicen/ctop",
     "license": "https://raw.githubusercontent.com/bcicen/ctop/master/LICENSE",
-    "version": "0.7.3",
+    "version": "0.7.5",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bcicen/ctop/releases/download/v0.7.3/ctop-0.7.3-windows-amd64#/ctop.exe",
-            "hash": "4888999fc21b9017bd9d86efe0303e80e1dfda83f377bca82b614685de010d41"
+            "url": "https://github.com/bcicen/ctop/releases/download/v0.7.5/ctop-0.7.5-windows-amd64#/ctop.exe",
+            "hash": "bffb1499d62c46b70dd25d557b653f812ccdc8b4bfb08473c063a6265faf78b3"
         }
     },
     "bin": [
