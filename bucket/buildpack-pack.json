@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/buildpack/pack",
     "license": "https://raw.githubusercontent.com/buildpack/pack/master/LICENSE",
-    "version": "0.10.0",
+    "version": "0.15.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/buildpack/pack/releases/download/v0.10.0/pack-v0.10.0-windows.zip",
-            "hash": "022f9dfe34ea1d0719271a1a516bc24e2bf0c558271a5eab2317a1202aa4694b"
+            "url": "https://github.com/buildpack/pack/releases/download/v0.15.1/pack-v0.15.1-windows.zip",
+            "hash": "cb051269f5874dae191e0b30aa612811c037270b735cf1147ce15bb643c3b91c"
         }
     },
     "bin": [
