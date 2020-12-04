@@ -1,11 +1,11 @@
 {
     "homepage": "http://mergedoc.osdn.jp/",
     "license": "EPL-1.0",
-    "version": "2019-12_20200213",
+    "version": "2020-09_20200920",
     "architecture": {
         "64bit": {
-            "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2019/pleiades-2019-12-ultimate-win-64bit-jre_20200213.zip",
-            "hash": "fc56c71ffae0419bb6411b66ced2005e766ae3d4d020b126041733cab83f9b06"
+            "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2020/pleiades-2020-09-ultimate-win-64bit-jre_20200920.zip",
+            "hash": "38127ec997db4ffacd723d81d023716525fdce4db34c5acfc6a9727cdabbf991"
         }
     },
     "extract_dir": "pleiades",
@@ -16,14 +16,14 @@
         ]
     ],
     "checkver": {
-        "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2019/",
-        "re": "pleiades-(?<version>2019-\\d{2})-ultimate-win-64bit-jre_(?<pubdate>\\d+)\\.zip",
+        "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2020/",
+        "re": "pleiades-(?<version>2020-\\d{2})-ultimate-win-64bit-jre_(?<pubdate>\\d+)\\.zip",
         "replace": "${version}_${pubdate}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2019/pleiades-$matchVersion-ultimate-win-64bit-jre_$matchPubdate.zip"
+                "url": "http://ftp.jaist.ac.jp/pub/mergedoc/pleiades/2020/pleiades-$matchVersion-ultimate-win-64bit-jre_$matchPubdate.zip"
             }
         }
     }
