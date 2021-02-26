@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/tlaplus/tlaplus",
     "license": "https://raw.githubusercontent.com/tlaplus/tlaplus/master/LICENSE",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "suggest": {
         "JDK": [
             "java/adopt8-hotspot",
@@ -15,8 +15,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tlaplus/tlaplus/releases/download/v1.7.0/TLAToolbox-1.7.0-win32.win32.x86_64.zip",
-            "hash": "39f5dd518b80f762e1359fd06e1923777cd7e4c1012313ccfa324687403e8a58"
+            "url": "https://github.com/tlaplus/tlaplus/releases/download/v1.7.1/TLAToolbox-1.7.1-win32.win32.x86_64.zip",
+            "hash": "cca8c3af76eaeb1854b5a66c939ced6b476d1824327ba3afdad56f9846c7d0ec"
         }
     },
     "extract_dir": "toolbox",
