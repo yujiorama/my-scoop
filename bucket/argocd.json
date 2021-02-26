@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/argoproj/argo-cd",
     "license": "https://raw.githubusercontent.com/argoproj/argo-cd/master/LICENSE",
-    "version": "1.7.10",
+    "version": "1.8.5",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/argoproj/argo-cd/releases/download/v1.7.10/argocd-windows-amd64.exe#/argocd.exe",
-            "hash": "ca2be7b44ff517a267be537ebba888271da412c784aca1b84f3b56724fe0bf22"
+            "url": "https://github.com/argoproj/argo-cd/releases/download/v1.8.5/argocd-windows-amd64.exe#/argocd.exe",
+            "hash": "3aea99b74ecd42f1dd99044c1699bce85d7db80a086b5eea5f45e82dadaae47f"
         }
     },
     "bin": [
